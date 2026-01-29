@@ -1,0 +1,5 @@
+{
+  "name": "DuckDo - Gacha Task Manager",
+  "description": "A gamified productivity app where completing tasks earns you roll tickets to collect 3D ducks. Features Gemini-powered productivity coaching.",
+  "requestFramePermissions": []
+}
