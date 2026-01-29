@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { User, Task, TaskStatus, Duck, DuckRarity } from './types';
 import { SAMPLE_TASKS, MOCK_DUCKS_DB } from './constants';
-import TaskList from './components/TaskList';
-import DuckGacha from './components/DuckGacha';
-import DuckInventory from './components/DuckInventory';
-import EggIncubator from './components/EggIncubator';
-import { getProductivityCoach } from './services/geminiService';
+import TaskList from './TaskList';
+import DuckGacha from './DuckGacha';
+import DuckInventory from './DuckInventory';
+import EggIncubator from './EggIncubator';
+import { getProductivityCoach } from './geminiService';
 import { Plus, LayoutGrid, List, Search, LogOut, Ticket, Sparkles, Egg, Gift, Moon, Sun, AlertTriangle } from 'lucide-react';
 
 // --- Auth Component ---
